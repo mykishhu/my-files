@@ -1,4 +1,4 @@
-ublic class Mykishhu{
+Public class Mykishhu{
 
    public Mykishhu(String name){
       // This constructor has one parameter, name.
