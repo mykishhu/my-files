@@ -1,4 +1,4 @@
-Public class Mykishhu{
+public class Mykishhu{
 
    public Mykishhu(String name){
       // This constructor has one parameter, name.
