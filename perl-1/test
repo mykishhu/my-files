@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+use v5.010;
+my $a =123;
+my $b="123";
+my $c=123;
+my $d=12;
+
+
+if ( $a !~ /^[0-9]$/ )
+{
+say "a is not an integer value";
+}
+
+if ( $b == $d ) 
+{
+say "String and integer are equal";
+}
+else
+{
+say "String and integer are not equal";
+}

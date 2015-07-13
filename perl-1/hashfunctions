@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+
+%number=(1=>abc,2=>xyz);
+@keys=keys%number;
+@values=values%number;
+
+foreach (sort @keys)
+{
+print $number{$_};
+}
+
+#while (($keys,$values) each %number)
+#{
+#print $key, $values;
+#}
+print keys%number,"\n";
+print values%number,"\n";
+#print exists%number,"\n";
+#print each%number,"\n";
+print reverse%number,"\n";
+print delete$number{2},"\n";

@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+use MIME::Base64;
+my $CUST="QlM";
+my $ENCUST=encode_base64($CUST,'');
+print "1.....$CUST\n";
+my $URL="http://".decode_base64($CUST);
+my $ECC=encode_base64(UTW);
+print "$ENCUST\n";
+print ";;;;$URL\n";

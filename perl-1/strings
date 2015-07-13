@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+#index
+#rindex
+#substr
+my $str=kishore;
+chomp(@arr=<STDIN>)
+if ( Sstr ~~ @arr )
+{
+print "yes";
+}

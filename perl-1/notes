@@ -1,0 +1,106 @@
+while (defined ($line=<STDIN>))
+{
+print;
+}
+while(<STDIN>)
+{
+print;
+}
+
+
+#for files
+while(<>)
+{
+pirnt;
+}
+@s=<>
+./file.pl a b c
+./file.pl file1 - file 2 # - means take input from user
+@ARGV
+print $ARGV[0];
+@ARGV=(d,e,f);
+open(FILEHANDLE,"somename");
+open(OUT, ">outfile");
+open(LOGFILE, ">>mylogfile");
+while(<FILEHANDLE>)
+{
+print;
+}
+close FILEHANDLE;
+$file=/home/mykishhu/myfile;
+open(FH,"< $file")
+@lines=<FH>
+close FH;
+open(READ,"<$file1");
+open(WRITE, ">$file");
+while (<READ>)
+{
+print WRITE $_;
+}
+
+
+open(LOG, ">> $file")
+print LOG $a;
+opendir(DIR,$dir);
+while ($file=readdir(DIR))
+{
+print $file;
+}
+select LOG;
+
+select STDOUT;
+
+
+open (LOG, "< /home/mykishhu/filenew")| die "File doesnot exist or you dont have permission to open the file"; $!
+
+
+if, else, elsif
+smart match operator ~~
+
+
+
+if, unless,while,until,foreach,for,given when
+
+
+
+given($ARGV[0])
+when()
+{
+}
+when()
+{
+}
+
+
+
+foreach(@array)
+{
+if ($_ -eq "fred")
+{
+print ":present";
+last;
+}
+}
+
+foreach(@array)
+{
+if ($_ ==5)
+{
+print ":present";
+$_+=1;
+next;
+}
+redo;
+print "$_ \n" foreach @array;
+print "a is less than b" if ($a < $b);
+
+
+#Naked loop
+{
+my $n="1234"
+print $n;
+}
+if (@arr ~~ %hash)
+if (@arr1 ~~ @arr2)
+
+

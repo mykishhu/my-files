@@ -1,0 +1,9 @@
+while (defined ($name=<STDIN>)
+{
+print $name;
+}
+ or 
+while (<>)
+{
+print $_;
+}

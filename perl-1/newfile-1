@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+%hash_n =(1,'a',2,'b',3,'c',4,'c');
+print %hash_n  , "\n";
+
+
+%hash1=( kishore => pattamatta,
+chaitanya => pattamatta);
+print %hash1 , "\n";
+print keys %hash1

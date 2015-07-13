@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use v5.010;
+
+my %count;
+chomp(@words=<STDIN>);
+#print keys %hash;
+#print values %hash;
+
+foreach (@words)
+{
+$count{$_}=$count{$_}+1;
+#print $count{$_};
+}
+print keys %count , values %count;
+

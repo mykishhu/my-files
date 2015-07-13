@@ -1,0 +1,14 @@
+<html>
+<table>
+<td>
+<build-file="java",result=build_failed,path="out/lib/jar/java.jar">
+</td>
+FAILED
+<td>
+<html>
+<td>
+<build-file="batch",result=build_failed,path="out/bin/cms">
+</td>
+FAILED
+</table>
+</html>

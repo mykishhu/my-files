@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+use v5.010;
+
+say "Please enter first value";
+chomp($fir=<STDIN>);
+say "Please enter second value";
+chomp($sec=<>);
+my $mul=$fir * $sec;
+say "Product of first and second value is - $mul";
+

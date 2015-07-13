@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+use v5.010;
+
+say "Please string value";
+$str=<STDIN>;
+say "Please enter number of times";
+chomp($num=<>);
+my $val=$str x $num;
+print "Result is\n$val";
+

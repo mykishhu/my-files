@@ -1,0 +1,6 @@
+nameserver 169.144.110.15
+domain egi.ericsson.com
+search egi.ericsson.com
+nameserver 153.88.112.200
+nameserver 150.236.18.69
+nameserver 146.11.115.200

@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+
+use warnings;
+#use strict;
+use diagnostics;
+my $var1;
+use v5.010;
+print "Hello world!!!!\n";
+#say $var1;
+$var1='something like helloworld\\';
+#say $var1;
+my $var2=2303;
+#say 35/3;
+#say 5 x 3.6;
+my $a = 1;
+my $b = "aaaa5xc";
+$b = 6;
+print  $a + $b."\n";
+my $_="kishore";
+say $_;
+my $abc="0";
+if ( $abc )
+{
+	print "Empty String \n";
+}
+chmop($input=<STDIN>);

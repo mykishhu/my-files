@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+use 5.010;
+
+@arr=<STDIN>;
+print "Reverse order of the array is\n";
+say reverse(@arr);

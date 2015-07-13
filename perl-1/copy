@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+use v5.010;
+my $source="/home/epattki/Desktop/perl-1/hashes";
+my $dest="/home/epattki/Desktop/perl-1/newfile-1";
+
+open(READ,"<$source");
+open(WRITE,">$dest");
+select WRITE;
+while(<READ>)
+{
+print; 
+}
+close READ;
+close WRITE;
+select STDOUT;
+print "File handler has been closed";

@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use 5.010;
+MIME::Base64
+
+%ENV;
+foreach (keys %ENV)
+{
+print $_=>$ENV{$_};
+print "\n"
+}
+encode_base64(UTW);
+# keys ~~ %hash;
+
+
+

@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+use v5.010;
+my $MYFILE;
+
+open $MYFILE, ">>", $_[0];
+syswrite $MYFILE, $_[1];
+close $MYFILE;

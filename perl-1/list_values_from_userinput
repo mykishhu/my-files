@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+use v5.010;
+@arr=qw/kishore kranthi banny john athavulla praveen/;
+
+print "Enter any values between 0 to 5";
+chomp(@user=<STDIN>);
+
+foreach $i (@user)
+{
+say @arr[$i];
+}
+

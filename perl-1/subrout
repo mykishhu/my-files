@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+use v5.010;
+
+sub temp
+{
+my $tot=@_;
+my ( $car1, $car2, $car3 )=@_;
+print "$car1 $car2 $car3";
+print $tot;
+}
+temp(Duster,Shift,Verna);

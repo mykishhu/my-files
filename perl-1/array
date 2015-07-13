@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+@array=(1..100);
+print " $array[1]\n";
+@a = qw/ a b c d e f /;
+
+print "@a\n";

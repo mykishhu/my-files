@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+use 5.010;
+%hash=(kishore=>pattamatta, raghu=>bitra, krishna=>tatipally, afroz=>azam);
+print "Enter a name of a person you(kishore,raghu,krishnai,afroz) will get his sirname\n";
+chomp(@list=<STDIN>);
+foreach (@list) 
+{
+print $hash{$_};
+print "\n";
+}

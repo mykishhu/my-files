@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+use v5.010;
+
+given($ARGV[0])
+{
+when( $ARGV[0]>35)
+{
+print "Greater\n::";
+}
+when ( $ARGV[0]<35)
+{
+print "Less";
+}
+}
