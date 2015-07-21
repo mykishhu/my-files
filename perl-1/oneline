@@ -2,5 +2,5 @@
 use 5.010;
 
 @arr=say reverse<STDIN>;
-#print "Reverse order of the array is\n";
-#say reverse(@arr);
+print "Reverse order of the array is\n";
+say reverse(@arr);
